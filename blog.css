@@ -4,7 +4,10 @@ body {
     margin: 75px 0;
     background-attachment: fixed;
 }
+.fone {
+    background:rgba(121, 121, 121, 0.8)
 
+}
 h1 {
     text-align: center;
     color: white;
@@ -52,7 +55,12 @@ h1 {
     width: 100%;
     background-color: black;
     text-align: center;
+    overflow: hidden;
         
+}
+
+.lead {
+    font-size: 18px;
 }
 
 .footer span {
@@ -69,6 +77,7 @@ h1 {
 .thumbnail {
     background-color: darkgray;
 }
+
 .thumbnail h1 {
     text-align: center;
     background-color: black;
@@ -89,7 +98,11 @@ h1 {
     color: #4c82fd;
 }
 
+.info {
+    font-size: 18px;
+    color: white;
 
+}
 
 /* Contacts BLOCK */
 
@@ -98,7 +111,7 @@ h1 {
 }
 
 .container p {
-    color: white;
+    color: #ffffff;
 }
 .container p a{
     color: #2931fa;
